@@ -1,0 +1,63 @@
+
+query appInit {
+    appInit {
+      bgAudioUrls
+      codingUrl
+      guideLanguage {
+        en {
+          main {
+            image {
+              url
+            }
+          }
+          freeCoding {
+            image {
+              url
+            }
+          }
+          coding {
+            image {
+              url
+            }
+          }
+          project {
+            image {
+              url
+            }
+          }
+          uploadCodingTip {
+            image {
+              url
+            }
+          }
+        },
+        ko {
+          main {
+            image {
+              url
+            }
+          }
+          freeCoding {
+            image {
+              url
+            }
+          }
+          coding {
+            image {
+              url
+            }
+          }
+          project {
+            image {
+              url
+            }
+          }
+          uploadCodingTip {
+            image {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
